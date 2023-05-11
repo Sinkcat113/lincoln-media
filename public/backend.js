@@ -12,6 +12,10 @@ document.querySelector("#btnSearch").addEventListener("click", () => {
     }
 })
 
+document.querySelector("#btnGithub").addEventListener("click", () => {
+    window.open("https://github.com/Sinkcat113/lincoln-media")
+})
+
 var limit = -4
 
 function getRecent() {
