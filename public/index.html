@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:image" content="https://media.discordapp.net/attachments/1100085349323116578/1106186514427301919/Lincoln_Media.png?width=1606&height=904">
+  <meta property="og:title" content="Lincoln Media" />
+  <meta property="og:description" content="Easily post articles about things going on in Lincoln and stay up to date in real-time" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lincoln-media.netlify.app/" />
+  <title>Lincoln Media - Front Page</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="shortcut icon" href="Lincoln Media Dark Modern-2.png" type="image/x-icon">
+</head>
+<body>
+  <div class="root">
+    <img id="btnCompose" src="edit.png" style="bottom: 20px; right: 20px; position: fixed; cursor: pointer; width: 40px; height: 40px; padding: 10px; background-color: rgb(107, 255, 139); border-radius: 14px;">
+    <div class="homeContent">
+      <img class="logo" src="Lincoln Media Dark Modern-2.png" alt="">
+    </div>
+    <div class="searchContainer">
+      <input type="text" placeholder="Search topics..." id="txtSearch">
+      <button id="btnSearch"><img class="searchIcon" src="search_select.png" alt=""></button>
+    </div>
+    <div class="topicContainer">
+      <h3 id="topicText">Recent Topics</h3>
+      <div class="topics">
+        <!-- EXAMPLE
+        <div class="topicWrapper">
+          <h4>A Topic</h4>
+          <p>A Topic description about a topic how can i fluff this out idk you tell me hahahaha</p>
+          <h5>By Evan C</h5>
+          <div class="elementContainer">
+            <h6>Open</h6>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+  <script type="module" src="backend.js"></script>
+</body>
+</html>
